@@ -141,7 +141,7 @@ filter: drop-shadow(15px 15px 15px #222);
 }
 
 
-.slider1 , .slider2 img:hover  {
+.slider1 img:hover, .slider2 img:hover  {
   -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;

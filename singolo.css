@@ -514,21 +514,21 @@ a:link, a:visited {
   position: absolute;
   top: 0px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-location.png);
+  background-image: url(./assets/img/icons/icon-location.png);
 }
   
 .icon-phone {
   position: absolute;
   top: -1px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-phone.png);
+  background-image: url(./assets/img/icons/icon-phone.png);
 }
   
 .icon-mail {
   position: absolute;
   top: 1px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-mail.png);
+  background-image: url(./assets/img/icons/icon-mail.png);
 }
 
 /* footer */
@@ -724,21 +724,28 @@ a:link, a:visited {
   position: absolute;
   top: 0px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-location.png);
+  background-image: url(./assets/img/icons/icon-location.png);
 }
   
 .icon-phone {
   position: absolute;
   top: -1px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-phone.png);
+  background-image: url(./assets/img/icons/icon-phone.png);
 }
   
 .icon-mail {
   position: absolute;
   top: 1px;
   left: -1px;
-  background-image: url(./assets/images/icons/icon-mail.png);
+  background-image: url(./assets/img/icons/icon-mail.png);
+}
+
+.slider1 {
+  position: absolute;
+  top: 1px;
+  left: -1px;
+
 }
 
 /* footer */

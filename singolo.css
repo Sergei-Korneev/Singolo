@@ -641,6 +641,7 @@ a:link, a:visited {
   font-size: 3rem;
   font-weight: 900;
   letter-spacing: -0.02rem;
+  color:white;
 }
 
 .description {

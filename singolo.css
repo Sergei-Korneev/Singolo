@@ -141,16 +141,38 @@ filter: drop-shadow(15px 15px 15px #222);
 }
 
 
+.slider1 , .slider2 img:hover  {
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+ -webkit-box-shadow: 0px 0px 30px 0px rgba(255, 226, 64, 0.67);
+-moz-box-shadow:    0px 0px 30px 0px rgba(255, 226, 64, 0.67);
+box-shadow:         0px 0px 30px 0px rgba(255, 226, 64, 0.67);
+}
 
 
-.slider1 img{
-  position: absolute;
-  top: 10px;
-  
+
+.slider1 {
+  position: relative;
+  top: 250px;
+  left: 20px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #200);
+  cursor: pointer;
 
 }
 
 
+
+.slider2 {
+  position: relative;
+  top: 250px;
+  left: 920px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #200);
+  cursor: pointer;
+
+}
 
 
 

@@ -564,7 +564,7 @@ a:link, a:visited {
   }
 
 .about-us__wrapper {
-    padding: 5.9rem 4rem 3rem 4rem;
+    /* padding: 5.9rem 4rem 3rem 4rem; */
     background-color: var(--light-background);
     border-bottom: 6px solid var(--light-background-border);
     color: var(--text);
@@ -580,8 +580,10 @@ a:link, a:visited {
 }
 
 .employee{
-margin-top:10px;
-
+  margin-top: 10px;
+  margin: auto;
+  width: 300px;
+padding-top: 10px;
 
 }
 
@@ -798,13 +800,14 @@ a:link, a:visited {
 }
   
 .wrapper {
+  padding-top: 20px;
   position: relative;
-  margin: 0 auto;
-  width: 90vw;
-  height: auto;
-  max-width: 1020px;
-  box-sizing: border-box;
-  font-family: "Lato", Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 90vw;
+    height: auto;
+    max-width: 1020px;
+    box-sizing: border-box;
+    font-family: "Lato", Helvetica, sans-serif;
 }
 
 .getqwrapper {
@@ -820,7 +823,7 @@ a:link, a:visited {
   font-size: 3rem;
   font-weight: 900;
   letter-spacing: -0.02rem;
-  color:white;
+  color:#767e9e;
 
 
 }

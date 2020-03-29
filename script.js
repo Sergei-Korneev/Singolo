@@ -164,7 +164,7 @@ function tabshuffle(Id) {
     }
     else { Id.className = "tag tag_selected"; }
     coll1 = document.getElementsByClassName("portfolio_part__image");
-    for (var i = 0, len = coll.length; i < len; i++) {
+    for (var i = 0, len = coll1.length; i < len; i++) {
 
         moveChoiceTo(coll1[i], 1);
     }

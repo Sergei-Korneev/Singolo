@@ -59,12 +59,7 @@ flex-wrap: wrap !important;
 
 
 @media  (min-width: 600px) and  (max-width: 1019px) { 
-  /* For desktop: */
- .our-services{
-/* 
-width: 200px; */
-
- }
+  
 
  .employee{
   width: 80%;
@@ -97,10 +92,6 @@ width: 200px; */
       } */
 
 
-ul .menupoints{
-  width:50px;
-
-}
 
   /* .banner  .iphone-vertical{
     width:145px;
@@ -234,7 +225,9 @@ position: absolute;
 }
 
 .menupoints{
-
+  margin: 0px;
+  height: 0px;
+ font-size: 16px;
   visibility: hidden;
 }
 
@@ -745,6 +738,7 @@ padding-top: 10px;
 
 .contact-info {
   width: 300px;
+  margin-top: 10px;
 }
 
 .contact-info__title {

@@ -39,7 +39,7 @@ window.onclick = function(event) {
 function menb(Id) {
     
         coll = document.getElementsByClassName("menupoints");
-        
+        coll[0].style["height"] = "120px";
         
                 coll[0].style["visibility"] = "visible";
           coll[0].style.opacity = 1;
@@ -51,8 +51,10 @@ function menb(Id) {
                         coll[0].style.opacity -= 0.1;
                     } else {
                         clearInterval(fadeEffect);
+                        coll[0].style["height"] = "0px";
                     }
-                }, 900);
+                }, 500);
+               
     }
     
     
